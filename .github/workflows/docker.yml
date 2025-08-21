@@ -26,3 +26,5 @@ jobs:
           file: ./argo-rollouts-canary/Dockerfile
           push: true
           tags: mueljr/argo-rollouts-demo:latest
+
+          
