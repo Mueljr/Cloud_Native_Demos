@@ -2,8 +2,7 @@
 
 _Each project demonstrates modern DevOps practices around Kubernetes, observability, GitOps, progressive delivery, and related tooling._
 
-_🎯 Purpose_
-
+**🎯 Purpose**
 Learn and practice real-world cloud-native DevOps patterns.
 
 Build a portfolio of projects that showcase deployments, monitoring, scaling, and automation.
