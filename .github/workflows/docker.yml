@@ -22,6 +22,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: ./argo-rollouts-canary/Dockerfile
+          context: ./argo-rollouts-canary
+          file: ./argo-rollouts-canary/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/argo-rollouts-demo:latest
+          tags: <your-dockerhub-username>/argo-rollouts-demo:latest
