@@ -25,4 +25,4 @@ jobs:
           context: ./argo-rollouts-canary
           file: ./argo-rollouts-canary/Dockerfile
           push: true
-          tags: <your-dockerhub-username>/argo-rollouts-demo:latest
+          tags: mueljr/argo-rollouts-demo:latest
